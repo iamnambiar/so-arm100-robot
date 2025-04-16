@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copied from https://github.com/TheRobotStudio/SO-ARM100/blob/71b886385da2e61f930799a4d5c0b4058fef4f16/URDF/SO_5DOF_ARM100_8j_URDF.SLDASM/urdf/SO_5DOF_ARM100_8j_URDF.SLDASM.urdf
- Added few changes:
+ Added few changes - 
  [1] Added a dummy joint at the beginning
- [2] changed name of the links. 
- [3] changed continuous joint to revolute with proper limits
+ [2] Changed name of the links. 
+ [3] Changed continuous joint to revolute with proper limits
 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="SO_5DOF_ARM100">
 
