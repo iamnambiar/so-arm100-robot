@@ -26,9 +26,13 @@ def generate_launch_description():
         ]
     )
 
-    robot_description = ParameterValue(Command(['xacro ', 
-                                                PathJoinSubstitution([description_dir,
-                                                                      "urdf", model_name])]))
+    robot_description = ParameterValue(
+        Command(
+            ['xacro ', 
+             PathJoinSubstitution([description_dir, 
+                                   "urdf", 
+                                   model_name])]), 
+             value_type=str)
 
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
