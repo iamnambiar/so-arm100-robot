@@ -196,7 +196,7 @@
         <parent link="lower_arm_link" />
         <child link="wrist_link" />
         <axis xyz="1 0 0" />
-        <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+        <limit lower="-${PI}" upper="${PI/4}" effort="${effort}" velocity="${velocity}"/>
     </joint>
     <link name="fixed_jaw_link">
         <inertial>
@@ -270,6 +270,6 @@
         <parent link="fixed_jaw_link" />
         <child link="moving_jaw_link" />
         <axis xyz="0 0 1" />
-        <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+        <limit lower="-${PI/18}" upper="${PI/3}" effort="${effort}" velocity="${velocity}"/>
     </joint>
 </robot>
