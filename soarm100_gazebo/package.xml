@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>soarm100_simulation</name>
+  <name>soarm100_gazebo</name>
   <version>1.0.0</version>
   <description>ROS2 simulation package for the SO-ARM100 robotic arm using Gazebo</description>
   <maintainer email="neerajc.nambiar@gmail.com">Neeraj Cherakara</maintainer>
@@ -15,7 +15,7 @@
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>ros_gz_sim</exec_depend>
   <exec_depend>ros_gz_bridge</exec_depend>
-
+  
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
