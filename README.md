@@ -45,12 +45,12 @@ Launch the robot in Gazebo:
 ```bash
 ros2 launch soarm100_gazebo soarm100_gazebo.launch.py
 ```
-
+<!-- 
 ### Motion Planning with MoveIt2
 
 ```bash
 ros2 launch soarm100_moveit_config demo.launch.py
-```
+``` -->
 
 <!-- ## Contributing
 

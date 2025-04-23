@@ -1,0 +1,9 @@
+# Default initial positions for SO_5DOF_ARM100's ros2_control fake system
+
+initial_positions:
+  shoulder_joint: 0.0
+  pitch_joint: 0.0
+  elbow_joint: 0.0
+  wrist_pitch_joint: 0.0
+  wrist_roll_joint: 0.0
+  jaw_joint: 0.0
